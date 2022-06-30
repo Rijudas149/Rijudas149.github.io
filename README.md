@@ -2,4 +2,4 @@
 
 Personal portfolio website
 
-tamaldas03.netlify.app
+http://tamaldas03.netlify.app/
