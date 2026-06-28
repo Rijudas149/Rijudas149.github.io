@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tamal Das — DWH/BI Developer at Amdocs. M.Tech CSE @ NIT Durgapur. Data Engineering & BI enthusiast." />
+  <title>Tamal Das | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="geo-canvas" aria-hidden="true"></canvas>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>TD<span class="logo-bracket">/&gt;</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light mode">
+          <i class="fas fa-moon" id="theme-icon"></i>
+        </button>
+        <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <span class="pulse-dot"></span>
+        Available for opportunities
+      </div>
+      <h1 class="hero-name reveal">
+        Hi, I'm <span class="gradient-text">Tamal Das</span>
+      </h1>
+      <p class="hero-title reveal">
+        <span id="typed-text"></span><span class="cursor-blink">|</span>
+      </p>
+      <p class="hero-desc reveal">
+        Transforming data into insights — building scalable DWH/BI solutions,
+        automation pipelines, and reliable data ecosystems at enterprise scale.
+      </p>
+      <div class="hero-buttons reveal">
+        <a href="#contact" class="btn btn-primary">
+          <i class="fas fa-paper-plane"></i> Get In Touch
+        </a>
+        <a href="#projects" class="btn btn-outline">
+          <i class="fas fa-code"></i> View Projects
+        </a>
+      </div>
+      <div class="hero-social reveal">
+        <a href="https://github.com/Rijudas149" target="_blank" rel="noopener" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/tamal-das-2a950019b/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="mailto:tamal3801das@gmail.com" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+    <div class="hero-visual reveal">
+      <div class="avatar-ring">
+        <div class="avatar">
+          <span class="avatar-initials">TD</span>
+        </div>
+        <div class="orbit orbit-1"><i class="fab fa-python"></i></div>
+        <div class="orbit orbit-2"><i class="fab fa-docker"></i></div>
+        <div class="orbit orbit-3"><i class="fas fa-database"></i></div>
+        <div class="orbit orbit-4"><i class="fas fa-chart-line"></i></div>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-card">
+          <span class="stat-number" data-target="8.13">0</span>
+          <span class="stat-label">M.Tech CGPA</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" data-target="9.34">0</span>
+          <span class="stat-label">B.Tech CGPA</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" data-target="34">0</span>
+          <span class="stat-label">GitHub Repos</span>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+    </a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Who I Am</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm a <strong>DWH/BI Developer at Amdocs, Pune</strong>, passionate about
+            data warehousing, business intelligence, and building efficient data pipelines.
+            With an <strong>M.Tech in Computer Science & Engineering</strong> from NIT Durgapur
+            and research in <em>Computational Geometry</em>, I bring analytical rigor to
+            every data challenge.
+          </p>
+          <p>
+            I specialize in large-scale data processing, ETL workflows, database systems,
+            and automation — turning complex data problems into reliable, scalable solutions.
+            When I'm not optimizing pipelines, you'll find me solving competitive programming
+            problems or exploring cloud data platforms.
+          </p>
+          <div class="about-info">
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Shyamnagar, West Bengal</span>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-briefcase"></i>
+              <span>Amdocs, Pune</span>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-graduation-cap"></i>
+              <span>M.Tech CSE — NIT Durgapur</span>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-phone"></i>
+              <span>+91-86478 14741</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-cards reveal">
+          <div class="about-card">
+            <div class="about-card-icon"><i class="fas fa-database"></i></div>
+            <h3>Data Engineering</h3>
+            <p>ETL pipelines, data migration, and enterprise-scale data warehousing solutions.</p>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon"><i class="fas fa-chart-bar"></i></div>
+            <h3>Business Intelligence</h3>
+            <p>Transforming raw data into actionable insights for cross-functional teams.</p>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon"><i class="fas fa-cogs"></i></div>
+            <h3>Automation</h3>
+            <p>Shell scripting, cron jobs, and monitoring systems for operational excellence.</p>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon"><i class="fas fa-shapes"></i></div>
+            <h3>Computational Geometry</h3>
+            <p>M.Tech research exploring algorithmic approaches to geometric problems.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Expertise</span>
+        <h2 class="section-title">Technical Skills</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category reveal">
+          <h3><i class="fas fa-code"></i> Languages</h3>
+          <div class="skill-tags">
+            <span class="skill-tag" style="--delay:0"><i class="fab fa-python"></i> Python</span>
+            <span class="skill-tag" style="--delay:1"><i class="fas fa-c"></i> C</span>
+            <span class="skill-tag" style="--delay:2"><i class="fas fa-plus"></i> C++</span>
+            <span class="skill-tag" style="--delay:3"><i class="fab fa-linux"></i> Bash</span>
+            <span class="skill-tag" style="--delay:4"><i class="fab fa-windows"></i> PowerShell</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <h3><i class="fas fa-database"></i> Databases</h3>
+          <div class="skill-tags">
+            <span class="skill-tag" style="--delay:0"><i class="fas fa-database"></i> Oracle SQL</span>
+            <span class="skill-tag" style="--delay:1"><i class="fas fa-database"></i> PostgreSQL</span>
+            <span class="skill-tag" style="--delay:2"><i class="fas fa-leaf"></i> NoSQL</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <h3><i class="fas fa-cube"></i> Containerization</h3>
+          <div class="skill-tags">
+            <span class="skill-tag" style="--delay:0"><i class="fab fa-docker"></i> Docker</span>
+            <span class="skill-tag" style="--delay:1"><i class="fas fa-dharmachakra"></i> Kubernetes</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <h3><i class="fas fa-chart-line"></i> Monitoring</h3>
+          <div class="skill-tags">
+            <span class="skill-tag" style="--delay:0"><i class="fas fa-tachometer-alt"></i> Grafana</span>
+            <span class="skill-tag" style="--delay:1"><i class="fas fa-fire"></i> Prometheus</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <h3><i class="fas fa-globe"></i> Web & APIs</h3>
+          <div class="skill-tags">
+            <span class="skill-tag" style="--delay:0"><i class="fab fa-html5"></i> HTML</span>
+            <span class="skill-tag" style="--delay:1"><i class="fab fa-css3-alt"></i> CSS</span>
+            <span class="skill-tag" style="--delay:2"><i class="fab fa-js"></i> JavaScript</span>
+            <span class="skill-tag" style="--delay:3"><i class="fas fa-plug"></i> REST APIs</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <h3><i class="fas fa-infinity"></i> CI/CD & Tools</h3>
+          <div class="skill-tags">
+            <span class="skill-tag" style="--delay:0"><i class="fas fa-cogs"></i> Jenkins</span>
+            <span class="skill-tag" style="--delay:1"><i class="fas fa-stream"></i> Informatica</span>
+            <span class="skill-tag" style="--delay:2"><i class="fas fa-bolt"></i> Apache Kafka</span>
+            <span class="skill-tag" style="--delay:3"><i class="fab fa-git-alt"></i> Git</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Career</span>
+        <h2 class="section-title">Work Experience</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>DWH/BI Developer</h3>
+                <p class="timeline-company"><i class="fas fa-building"></i> Amdocs — Pune, India</p>
+              </div>
+              <span class="timeline-date">Jun 2025 – Present</span>
+            </div>
+            <ul class="timeline-list">
+              <li>Managing large-scale data processing, validation, and transformation workflows to support efficient data handling and operational requirements.</li>
+              <li>Executing data migration activities ensuring accuracy, consistency, and seamless transition of business-critical information across systems.</li>
+              <li>Collaborating with cross-functional teams to deliver reliable data solutions and implementing best practices for data management and process optimization.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>ETL</span><span>Data Migration</span><span>Oracle</span><span>Informatica</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Academics</span>
+        <h2 class="section-title">Education</h2>
+      </div>
+      <div class="edu-grid">
+        <div class="edu-card reveal">
+          <div class="edu-icon"><i class="fas fa-university"></i></div>
+          <div class="edu-body">
+            <span class="edu-date">Aug 2023 – May 2025</span>
+            <h3>M.Tech in Computer Science & Engineering</h3>
+            <p class="edu-institute">National Institute of Technology, Durgapur</p>
+            <div class="edu-meta">
+              <span class="edu-badge">CGPA: 8.13</span>
+              <span class="edu-badge accent">Research: Computational Geometry</span>
+            </div>
+          </div>
+        </div>
+        <div class="edu-card reveal">
+          <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+          <div class="edu-body">
+            <span class="edu-date">Sep 2019 – Jul 2023</span>
+            <h3>B.Tech in Information Technology</h3>
+            <p class="edu-institute">Government College of Engineering and Leather Technology</p>
+            <div class="edu-meta">
+              <span class="edu-badge">CGPA: 9.34</span>
+            </div>
+          </div>
+        </div>
+        <div class="edu-card reveal">
+          <div class="edu-icon"><i class="fas fa-book"></i></div>
+          <div class="edu-body">
+            <span class="edu-date">Jun 2017 – Jun 2019</span>
+            <h3>Class XII — Pure Science</h3>
+            <p class="edu-institute">Mulajore Sitanath Pathsala</p>
+            <div class="edu-meta">
+              <span class="edu-badge">87.4%</span>
+            </div>
+          </div>
+        </div>
+        <div class="edu-card reveal">
+          <div class="edu-icon"><i class="fas fa-school"></i></div>
+          <div class="edu-body">
+            <span class="edu-date">May 2007 – May 2017</span>
+            <h3>Class X — Secondary</h3>
+            <p class="edu-institute">Mulajore Sitanath Pathsala</p>
+            <div class="edu-meta">
+              <span class="edu-badge">85.86%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Portfolio</span>
+        <h2 class="section-title">Featured Projects</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-image">
+            <div class="project-icon-wrap">
+              <i class="fas fa-file-shield"></i>
+            </div>
+            <div class="project-overlay">
+              <a href="https://github.com/Rijudas149" target="_blank" rel="noopener" class="project-link">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Amdocs · Automation</span>
+            <h3>Real-Time File Integration & Management System (FIM)</h3>
+            <p>
+              Shell Script and Cron-based automation system for monitoring and managing
+              file integrity across enterprise servers with real-time alerting.
+            </p>
+            <ul class="project-features">
+              <li><i class="fas fa-check"></i> Automated daily directory monitoring via checksum comparison</li>
+              <li><i class="fas fa-check"></i> Real-time email notifications on file changes & anomalies</li>
+              <li><i class="fas fa-check"></i> Configurable report generation with auto-purge retention</li>
+              <li><i class="fas fa-check"></i> Optimized storage utilization across enterprise servers</li>
+            </ul>
+            <div class="project-tech">
+              <span>Bash</span><span>Cron</span><span>Shell Script</span><span>Email Automation</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image project-image-alt">
+            <div class="project-icon-wrap">
+              <i class="fas fa-cloud-sun"></i>
+            </div>
+            <div class="project-overlay">
+              <a href="https://github.com/Rijudas149/WeatherApp" target="_blank" rel="noopener" class="project-link">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Personal · Web App</span>
+            <h3>Weather App</h3>
+            <p>
+              A responsive weather application built with JavaScript that fetches
+              real-time weather data and presents it in a clean, user-friendly interface.
+            </p>
+            <div class="project-tech">
+              <span>JavaScript</span><span>HTML</span><span>CSS</span><span>REST API</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image project-image-alt2">
+            <div class="project-icon-wrap">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <div class="project-overlay">
+              <a href="https://github.com/Rijudas149/Striver-SDE-Sheet-Challenge" target="_blank" rel="noopener" class="project-link">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-body">
+            <span class="project-tag">DSA · C++</span>
+            <h3>Striver SDE Sheet Challenge</h3>
+            <p>
+              Comprehensive solutions to the Striver SDE Sheet — covering arrays, trees,
+              graphs, dynamic programming, and more in C++.
+            </p>
+            <div class="project-tech">
+              <span>C++</span><span>DSA</span><span>Algorithms</span>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="projects-cta reveal">
+        <a href="https://github.com/Rijudas149?tab=repositories" target="_blank" rel="noopener" class="btn btn-outline">
+          <i class="fab fa-github"></i> View All 34 Repositories
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Connect</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">Have a project in mind or want to collaborate? I'd love to hear from you.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-cards reveal">
+          <a href="mailto:tamal3801das@gmail.com" class="contact-card">
+            <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <h4>Email</h4>
+              <p>tamal3801das@gmail.com</p>
+            </div>
+          </a>
+          <a href="tel:+918647814741" class="contact-card">
+            <div class="contact-card-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <h4>Phone</h4>
+              <p>+91-86478 14741</p>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/tamal-das-2a950019b/" target="_blank" rel="noopener" class="contact-card">
+            <div class="contact-card-icon"><i class="fab fa-linkedin-in"></i></div>
+            <div>
+              <h4>LinkedIn</h4>
+              <p>tamal-das-2a950019b</p>
+            </div>
+          </a>
+          <a href="https://github.com/Rijudas149" target="_blank" rel="noopener" class="contact-card">
+            <div class="contact-card-icon"><i class="fab fa-github"></i></div>
+            <div>
+              <h4>GitHub</h4>
+              <p>Rijudas149</p>
+            </div>
+          </a>
+        </div>
+        <form class="contact-form reveal" id="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What's this about?" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 <span class="gradient-text">Tamal Das</span>. Built with passion & data.</p>
+      <div class="footer-social">
+        <a href="https://github.com/Rijudas149" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/tamal-das-2a950019b/" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:tamal3801das@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
