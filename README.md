@@ -2,8 +2,6 @@
 
 **DWH/BI Developer** @ Amdocs, Pune
 
-Shyamnagar, West Bengal
-
 ---
 
 ## Contact
