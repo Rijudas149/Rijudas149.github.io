@@ -70,8 +70,7 @@ const typedEl = document.getElementById('typed-text');
 const roles = [
   'DWH/BI Developer',
   'Data Engineer',
-  'M.Tech CSE Graduate',
-  'BI Enthusiast',
+  'Automation Builder',
   'Problem Solver'
 ];
 let roleIndex = 0;
