@@ -1,8 +1,8 @@
 # Tamal Das
 
-**DWH/BI Developer** @ Amdocs, Pune
+**DWH/BI Developer** @ Amdocs — Data Studio, Pune
 
-Shyamnagar, West Bengal
+Shyamnagar, West Bengal, India
 
 ---
 
@@ -18,11 +18,30 @@ Shyamnagar, West Bengal
 
 ## Experience
 
-**DWH/BI Developer** — Amdocs, Pune, India *(Jun 2025 – Present)*
+**DWH/BI Developer** — Amdocs — Data Studio, Pune, India *(Jun 2025 – Present)*
 
-- Managing large-scale data processing, validation, and transformation workflows.
-- Executing data migration activities ensuring accuracy and seamless transition of business-critical information.
-- Collaborating with cross-functional teams to deliver reliable data solutions and process optimization.
+- Optimize SQL queries, Python code, and Informatica ETL mappings for better throughput and lower resource use.
+- Lead environment upgrade cycles — delta analysis, implementation, and parameter file updates.
+- Manage critical maintenance refreshes including CONV_TT, C1, and O&D.
+- Built a File Integration Management System (FIM) with Shell scripting and Cron for proactive file monitoring.
+
+---
+
+## Projects
+
+**Amdocs (AT&T USA)** — ETL Optimization & Environment Upgrades
+
+- SQL query optimization and Informatica mapping tuning.
+- Python code enhancements for processing efficiency.
+- Environment upgrades with delta analysis and component validation.
+- FIM system — checksum validation and automated email notifications.
+
+**Amdocs (Telkomsel Indonesia)** — Large-Scale Oracle Data Patching
+
+- Migrated ~1 million records (Fixed Assets, Billing Accounts, Subscriber Records).
+- Post-migration validation and reconciliation for data integrity.
+- Database-level changes aligned with business requirements.
+- Cross-functional coordination with business and technical teams.
 
 ---
 
@@ -32,28 +51,16 @@ Shyamnagar, West Bengal
 |--------|-----------|--------|-------|
 | M.Tech, Computer Science & Engineering | National Institute of Technology, Durgapur | Aug 2023 – May 2025 | CGPA: 8.13 |
 | B.Tech, Information Technology | Government College of Engineering and Leather Technology | Sep 2019 – Jul 2023 | CGPA: 9.34 |
-| Class XII, Pure Science | Mulajore Sitanath Pathsala | Jun 2017 – Jun 2019 | 87.4% |
-| Class X | Mulajore Sitanath Pathsala | May 2007 – May 2017 | 85.86% |
 
 **Research Topic (M.Tech):** Computational Geometry
 
 ---
 
-## Projects
-
-**Real-Time File Integration and Management System (FIM)** — Amdocs
-
-- Shell Script and Cron-based automation for file integrity monitoring across enterprise servers.
-- Automated daily directory monitoring with checksum comparison.
-- Real-time email notifications on file changes and anomalies.
-- Automated report generation with configurable purge mechanism.
-
----
-
 ## Skills
 
-- **Languages:** C, C++, Python, Bash, PowerShell
-- **Databases:** Oracle SQL, NoSQL, PostgreSQL
+- **Programming & Scripting:** C, C++, Python, Bash, PowerShell
+- **Databases:** Oracle SQL
+- **Data Migration:** Informatica
 - **Containerization:** Docker, Kubernetes
 - **Monitoring:** Grafana, Prometheus
 - **Web & APIs:** HTML, CSS, JavaScript, REST APIs

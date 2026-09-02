@@ -69,9 +69,9 @@ window.addEventListener('scroll', highlightNav);
 const typedEl = document.getElementById('typed-text');
 const roles = [
   'DWH/BI Developer',
-  'Data Engineer',
-  'Automation Builder',
-  'Problem Solver'
+  'SQL & ETL Tuning',
+  'Informatica',
+  'Data Migration'
 ];
 let roleIndex = 0;
 let charIndex = 0;
